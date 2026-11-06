@@ -1,0 +1,147 @@
+{
+  "change": "Remove unused right column from today dashboard",
+  "checks": [
+    {
+      "name": "1440: compact content sections present",
+      "result": "PASS"
+    },
+    {
+      "name": "1440: four today tasks retained",
+      "result": "PASS"
+    },
+    {
+      "name": "1440: supporting sections follow tasks without large gap",
+      "result": "PASS"
+    },
+    {
+      "name": "1440: production follows supporting sections without large gap",
+      "result": "PASS"
+    },
+    {
+      "name": "1440: production remains at bottom",
+      "result": "PASS"
+    },
+    {
+      "name": "1440: no body overflow",
+      "result": "PASS"
+    },
+    {
+      "name": "1440: task detail entry works",
+      "result": "PASS"
+    },
+    {
+      "name": "1440: production detail entry works",
+      "result": "PASS"
+    },
+    {
+      "name": "1280: compact content sections present",
+      "result": "PASS"
+    },
+    {
+      "name": "1280: four today tasks retained",
+      "result": "PASS"
+    },
+    {
+      "name": "1280: supporting sections follow tasks without large gap",
+      "result": "PASS"
+    },
+    {
+      "name": "1280: production follows supporting sections without large gap",
+      "result": "PASS"
+    },
+    {
+      "name": "1280: production remains at bottom",
+      "result": "PASS"
+    },
+    {
+      "name": "1280: no body overflow",
+      "result": "PASS"
+    },
+    {
+      "name": "1280: task detail entry works",
+      "result": "PASS"
+    },
+    {
+      "name": "1280: production detail entry works",
+      "result": "PASS"
+    },
+    {
+      "name": "768: compact content sections present",
+      "result": "PASS"
+    },
+    {
+      "name": "768: four today tasks retained",
+      "result": "PASS"
+    },
+    {
+      "name": "768: supporting sections follow tasks without large gap",
+      "result": "PASS"
+    },
+    {
+      "name": "768: production follows supporting sections without large gap",
+      "result": "PASS"
+    },
+    {
+      "name": "768: production remains at bottom",
+      "result": "PASS"
+    },
+    {
+      "name": "768: no body overflow",
+      "result": "PASS"
+    },
+    {
+      "name": "768: task detail entry works",
+      "result": "PASS"
+    },
+    {
+      "name": "768: production detail entry works",
+      "result": "PASS"
+    },
+    {
+      "name": "390: compact content sections present",
+      "result": "PASS"
+    },
+    {
+      "name": "390: four today tasks retained",
+      "result": "PASS"
+    },
+    {
+      "name": "390: supporting sections follow tasks without large gap",
+      "result": "PASS"
+    },
+    {
+      "name": "390: production follows supporting sections without large gap",
+      "result": "PASS"
+    },
+    {
+      "name": "390: production remains at bottom",
+      "result": "PASS"
+    },
+    {
+      "name": "390: no body overflow",
+      "result": "PASS"
+    },
+    {
+      "name": "390: task detail entry works",
+      "result": "PASS"
+    },
+    {
+      "name": "390: production detail entry works",
+      "result": "PASS"
+    },
+    {
+      "name": "no browser script errors",
+      "result": "PASS"
+    },
+    {
+      "name": "Odd task count: final task spans width without empty half row",
+      "result": "PASS"
+    },
+    {
+      "name": "Zero today tasks: empty focus and production bottom remain usable",
+      "result": "PASS"
+    }
+  ],
+  "passed": 35,
+  "errors": []
+}

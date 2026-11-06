@@ -1,0 +1,389 @@
+{
+  "browser": "Chrome / Playwright",
+  "checks": [
+    {
+      "name": "switch updates URL",
+      "result": "PASS"
+    },
+    {
+      "name": "reload preserves layout",
+      "result": "PASS"
+    },
+    {
+      "name": "arrow switches layout",
+      "result": "PASS"
+    },
+    {
+      "name": "input arrows do not switch layouts",
+      "result": "PASS"
+    },
+    {
+      "name": "personal completion preserves source and validation",
+      "result": "PASS"
+    },
+    {
+      "name": "risk stays open after personal action",
+      "result": "PASS"
+    },
+    {
+      "name": "valid risk table cells",
+      "result": "PASS"
+    },
+    {
+      "name": "tomorrow plan preserves source deadline",
+      "result": "PASS"
+    },
+    {
+      "name": "focus moves to remaining today task",
+      "result": "PASS"
+    },
+    {
+      "name": "quick capture enters inbox",
+      "result": "PASS"
+    },
+    {
+      "name": "empty search state",
+      "result": "PASS"
+    },
+    {
+      "name": "MR recheck filter",
+      "result": "PASS"
+    },
+    {
+      "name": "MR author filter",
+      "result": "PASS"
+    },
+    {
+      "name": "merged MR retains personal review warning",
+      "result": "PASS"
+    },
+    {
+      "name": "review revision record preserves external status",
+      "result": "PASS"
+    },
+    {
+      "name": "write conflict retains draft and source",
+      "result": "PASS"
+    },
+    {
+      "name": "write conflict explains no overwrite",
+      "result": "PASS"
+    },
+    {
+      "name": "uncertain write remains unconfirmed",
+      "result": "PASS"
+    },
+    {
+      "name": "simulated confirmed write snapshot changes once",
+      "result": "PASS"
+    },
+    {
+      "name": "source failure preserves plans",
+      "result": "PASS"
+    },
+    {
+      "name": "unsaved prompt indicator",
+      "result": "PASS"
+    },
+    {
+      "name": "variant switch preserves unsaved prompt",
+      "result": "PASS"
+    },
+    {
+      "name": "copy preserves multiline body modulo native Windows CRLF",
+      "result": "PASS"
+    },
+    {
+      "name": "copy uses last saved body",
+      "result": "PASS"
+    },
+    {
+      "name": "can cancel abandoning prompt draft",
+      "result": "PASS"
+    },
+    {
+      "name": "discarding new unsaved prompt removes draft",
+      "result": "PASS"
+    },
+    {
+      "name": "review references sources and excludes sensitive material",
+      "result": "PASS"
+    },
+    {
+      "name": "Markdown download",
+      "result": "PASS"
+    },
+    {
+      "name": "review period switch resets draft",
+      "result": "PASS"
+    },
+    {
+      "name": "shared feedback visible on today",
+      "result": "PASS"
+    },
+    {
+      "name": "carryover retains unfinished fact",
+      "result": "PASS"
+    },
+    {
+      "name": "AI scenario normal preserves honest outcome",
+      "result": "PASS"
+    },
+    {
+      "name": "AI scenario scope preserves honest outcome",
+      "result": "PASS"
+    },
+    {
+      "name": "AI scenario partial preserves honest outcome",
+      "result": "PASS"
+    },
+    {
+      "name": "AI cancellation stops later steps and preserves prior steps",
+      "result": "PASS"
+    },
+    {
+      "name": "unverified external model blocked",
+      "result": "PASS"
+    },
+    {
+      "name": "mock check never marks real capability verified",
+      "result": "PASS"
+    },
+    {
+      "name": "sync pause is visible",
+      "result": "PASS"
+    },
+    {
+      "name": "desktop no body overflow A/today",
+      "result": "PASS"
+    },
+    {
+      "name": "desktop no body overflow A/tasks",
+      "result": "PASS"
+    },
+    {
+      "name": "desktop no body overflow A/manage",
+      "result": "PASS"
+    },
+    {
+      "name": "desktop no body overflow A/prompts",
+      "result": "PASS"
+    },
+    {
+      "name": "desktop no body overflow A/review",
+      "result": "PASS"
+    },
+    {
+      "name": "desktop no body overflow A/executions",
+      "result": "PASS"
+    },
+    {
+      "name": "desktop no body overflow A/settings",
+      "result": "PASS"
+    },
+    {
+      "name": "desktop no body overflow B/today",
+      "result": "PASS"
+    },
+    {
+      "name": "desktop no body overflow B/tasks",
+      "result": "PASS"
+    },
+    {
+      "name": "desktop no body overflow B/manage",
+      "result": "PASS"
+    },
+    {
+      "name": "desktop no body overflow B/prompts",
+      "result": "PASS"
+    },
+    {
+      "name": "desktop no body overflow B/review",
+      "result": "PASS"
+    },
+    {
+      "name": "desktop no body overflow B/executions",
+      "result": "PASS"
+    },
+    {
+      "name": "desktop no body overflow B/settings",
+      "result": "PASS"
+    },
+    {
+      "name": "desktop no body overflow C/today",
+      "result": "PASS"
+    },
+    {
+      "name": "desktop no body overflow C/tasks",
+      "result": "PASS"
+    },
+    {
+      "name": "desktop no body overflow C/manage",
+      "result": "PASS"
+    },
+    {
+      "name": "desktop no body overflow C/prompts",
+      "result": "PASS"
+    },
+    {
+      "name": "desktop no body overflow C/review",
+      "result": "PASS"
+    },
+    {
+      "name": "desktop no body overflow C/executions",
+      "result": "PASS"
+    },
+    {
+      "name": "desktop no body overflow C/settings",
+      "result": "PASS"
+    },
+    {
+      "name": "mobile no body overflow A/today",
+      "result": "PASS"
+    },
+    {
+      "name": "mobile no body overflow A/tasks",
+      "result": "PASS"
+    },
+    {
+      "name": "mobile no body overflow A/manage",
+      "result": "PASS"
+    },
+    {
+      "name": "mobile no body overflow A/prompts",
+      "result": "PASS"
+    },
+    {
+      "name": "mobile no body overflow A/review",
+      "result": "PASS"
+    },
+    {
+      "name": "mobile no body overflow A/executions",
+      "result": "PASS"
+    },
+    {
+      "name": "mobile no body overflow A/settings",
+      "result": "PASS"
+    },
+    {
+      "name": "mobile no body overflow B/today",
+      "result": "PASS"
+    },
+    {
+      "name": "mobile no body overflow B/tasks",
+      "result": "PASS"
+    },
+    {
+      "name": "mobile no body overflow B/manage",
+      "result": "PASS"
+    },
+    {
+      "name": "mobile no body overflow B/prompts",
+      "result": "PASS"
+    },
+    {
+      "name": "mobile no body overflow B/review",
+      "result": "PASS"
+    },
+    {
+      "name": "mobile no body overflow B/executions",
+      "result": "PASS"
+    },
+    {
+      "name": "mobile no body overflow B/settings",
+      "result": "PASS"
+    },
+    {
+      "name": "mobile no body overflow C/today",
+      "result": "PASS"
+    },
+    {
+      "name": "mobile no body overflow C/tasks",
+      "result": "PASS"
+    },
+    {
+      "name": "mobile no body overflow C/manage",
+      "result": "PASS"
+    },
+    {
+      "name": "mobile no body overflow C/prompts",
+      "result": "PASS"
+    },
+    {
+      "name": "mobile no body overflow C/review",
+      "result": "PASS"
+    },
+    {
+      "name": "mobile no body overflow C/executions",
+      "result": "PASS"
+    },
+    {
+      "name": "mobile no body overflow C/settings",
+      "result": "PASS"
+    },
+    {
+      "name": "mobile drawer fits screen",
+      "result": "PASS"
+    },
+    {
+      "name": "no browser page errors",
+      "result": "PASS"
+    },
+    {
+      "name": "no external requests",
+      "result": "PASS"
+    },
+    {
+      "name": "all completed today has empty focus state",
+      "result": "PASS"
+    },
+    {
+      "name": "moving all tasks out leaves usable empty focus state",
+      "result": "PASS"
+    },
+    {
+      "name": "clipboard denial offers unchanged manual copy body",
+      "result": "PASS"
+    },
+    {
+      "name": "dialog focus stays inside on backwards tab",
+      "result": "PASS"
+    },
+    {
+      "name": "Escape dismisses dialog",
+      "result": "PASS"
+    },
+    {
+      "name": "settings accessible in collapsed sidebar 375px",
+      "result": "PASS"
+    },
+    {
+      "name": "collapsed sidebar settings navigation 375px",
+      "result": "PASS"
+    },
+    {
+      "name": "settings accessible in collapsed sidebar 390px",
+      "result": "PASS"
+    },
+    {
+      "name": "collapsed sidebar settings navigation 390px",
+      "result": "PASS"
+    },
+    {
+      "name": "settings accessible in collapsed sidebar 768px",
+      "result": "PASS"
+    },
+    {
+      "name": "collapsed sidebar settings navigation 768px",
+      "result": "PASS"
+    },
+    {
+      "name": "no browser errors in boundary checks",
+      "result": "PASS"
+    }
+  ],
+  "errors": [],
+  "external_requests": [],
+  "note": "Windows clipboard LF is normalized to CRLF by the OS; comparisons normalize CRLF only.",
+  "passed": 95
+}

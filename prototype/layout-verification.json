@@ -1,0 +1,59 @@
+{
+  "change": "Move variant A weekly production section to page bottom",
+  "checks": [
+    {
+      "name": "desktop: weekly production section outside dashboard",
+      "result": "PASS"
+    },
+    {
+      "name": "desktop: weekly production below tasks and followups",
+      "result": "PASS"
+    },
+    {
+      "name": "desktop: weekly production is final content section",
+      "result": "PASS"
+    },
+    {
+      "name": "desktop: all three production lines retained",
+      "result": "PASS"
+    },
+    {
+      "name": "desktop: no body overflow",
+      "result": "PASS"
+    },
+    {
+      "name": "desktop: production details still open",
+      "result": "PASS"
+    },
+    {
+      "name": "mobile: weekly production section outside dashboard",
+      "result": "PASS"
+    },
+    {
+      "name": "mobile: weekly production below tasks and followups",
+      "result": "PASS"
+    },
+    {
+      "name": "mobile: weekly production is final content section",
+      "result": "PASS"
+    },
+    {
+      "name": "mobile: all three production lines retained",
+      "result": "PASS"
+    },
+    {
+      "name": "mobile: no body overflow",
+      "result": "PASS"
+    },
+    {
+      "name": "mobile: production details still open",
+      "result": "PASS"
+    },
+    {
+      "name": "no browser script errors",
+      "result": "PASS"
+    }
+  ],
+  "passed": 13,
+  "errors": []
+}

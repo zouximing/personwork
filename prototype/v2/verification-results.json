@@ -1,0 +1,342 @@
+{
+  "date": "2026-11-07",
+  "browser": "local Chrome / Python Playwright",
+  "checks": [
+    {
+      "name": "A: sidebar and action-first layout",
+      "result": "PASS"
+    },
+    {
+      "name": "three initial daily priorities",
+      "result": "PASS"
+    },
+    {
+      "name": "A: action list does not repeat priorities",
+      "result": "PASS"
+    },
+    {
+      "name": "B: URL updates and three lines shown in parallel",
+      "result": "PASS"
+    },
+    {
+      "name": "variant is reload-stable",
+      "result": "PASS"
+    },
+    {
+      "name": "keyboard cycles between exactly two variants",
+      "result": "PASS"
+    },
+    {
+      "name": "relevant prototype state is visible",
+      "result": "PASS"
+    },
+    {
+      "name": "daily priorities limited to three",
+      "result": "PASS"
+    },
+    {
+      "name": "can replace a daily priority",
+      "result": "PASS"
+    },
+    {
+      "name": "complete action records date and removes priority",
+      "result": "PASS"
+    },
+    {
+      "name": "switching layouts preserves in-memory state",
+      "result": "PASS"
+    },
+    {
+      "name": "reload resets prototype business state",
+      "result": "PASS"
+    },
+    {
+      "name": "N opens capture from homepage",
+      "result": "PASS"
+    },
+    {
+      "name": "arrows in input do not switch layouts",
+      "result": "PASS"
+    },
+    {
+      "name": "capture enters inbox without classification",
+      "result": "PASS"
+    },
+    {
+      "name": "captured title safely rendered as text",
+      "result": "PASS"
+    },
+    {
+      "name": "delegation requires a waiting person",
+      "result": "PASS"
+    },
+    {
+      "name": "delegation rejects whitespace-only person",
+      "result": "PASS"
+    },
+    {
+      "name": "delegation saves person, expectation and reply date",
+      "result": "PASS"
+    },
+    {
+      "name": "new overdue wait appears on homepage",
+      "result": "PASS"
+    },
+    {
+      "name": "task search includes description",
+      "result": "PASS"
+    },
+    {
+      "name": "search empty state",
+      "result": "PASS"
+    },
+    {
+      "name": "domain filter",
+      "result": "PASS"
+    },
+    {
+      "name": "task status board",
+      "result": "PASS"
+    },
+    {
+      "name": "importance and urgency quadrants",
+      "result": "PASS"
+    },
+    {
+      "name": "MR project filter",
+      "result": "PASS"
+    },
+    {
+      "name": "MR shows source snapshot separately",
+      "result": "PASS"
+    },
+    {
+      "name": "MR local completion creates one completed D2 record",
+      "result": "PASS"
+    },
+    {
+      "name": "local completion preserves source and prevents duplicate review record",
+      "result": "PASS"
+    },
+    {
+      "name": "MR completion flows to report素材",
+      "result": "PASS"
+    },
+    {
+      "name": "report includes line section and abnormal focus",
+      "result": "PASS"
+    },
+    {
+      "name": "sensitive personnel records excluded from report",
+      "result": "PASS"
+    },
+    {
+      "name": "weekly risk changes derived from dated records",
+      "result": "PASS"
+    },
+    {
+      "name": "editing preserved when switching layout",
+      "result": "PASS"
+    },
+    {
+      "name": "copy uses currently edited report",
+      "result": "PASS"
+    },
+    {
+      "name": "downloaded Markdown contains edited report",
+      "result": "PASS"
+    },
+    {
+      "name": "monthly report uses month focus records",
+      "result": "PASS"
+    },
+    {
+      "name": "dialog prevents global arrow shortcut",
+      "result": "PASS"
+    },
+    {
+      "name": "line completion does not close independent risk",
+      "result": "PASS"
+    },
+    {
+      "name": "line update visible on management homepage",
+      "result": "PASS"
+    },
+    {
+      "name": "monthly focus is distinct from weekly focus",
+      "result": "PASS"
+    },
+    {
+      "name": "monthly completed-item ratio recalculates and completed item is 100 percent",
+      "result": "PASS"
+    },
+    {
+      "name": "risk explicitly closed with dated explanation",
+      "result": "PASS"
+    },
+    {
+      "name": "layout A/today/1440: no outer horizontal overflow",
+      "result": "PASS"
+    },
+    {
+      "name": "layout A/tasks/1440: no outer horizontal overflow",
+      "result": "PASS"
+    },
+    {
+      "name": "layout A/lines/1440: no outer horizontal overflow",
+      "result": "PASS"
+    },
+    {
+      "name": "layout A/mr/1440: no outer horizontal overflow",
+      "result": "PASS"
+    },
+    {
+      "name": "layout A/report/1440: no outer horizontal overflow",
+      "result": "PASS"
+    },
+    {
+      "name": "layout A/people/1440: no outer horizontal overflow",
+      "result": "PASS"
+    },
+    {
+      "name": "layout A/today/1024: no outer horizontal overflow",
+      "result": "PASS"
+    },
+    {
+      "name": "layout A/tasks/1024: no outer horizontal overflow",
+      "result": "PASS"
+    },
+    {
+      "name": "layout A/lines/1024: no outer horizontal overflow",
+      "result": "PASS"
+    },
+    {
+      "name": "layout A/mr/1024: no outer horizontal overflow",
+      "result": "PASS"
+    },
+    {
+      "name": "layout A/report/1024: no outer horizontal overflow",
+      "result": "PASS"
+    },
+    {
+      "name": "layout A/people/1024: no outer horizontal overflow",
+      "result": "PASS"
+    },
+    {
+      "name": "layout A/today/390: no outer horizontal overflow",
+      "result": "PASS"
+    },
+    {
+      "name": "layout A/tasks/390: no outer horizontal overflow",
+      "result": "PASS"
+    },
+    {
+      "name": "layout A/lines/390: no outer horizontal overflow",
+      "result": "PASS"
+    },
+    {
+      "name": "layout A/mr/390: no outer horizontal overflow",
+      "result": "PASS"
+    },
+    {
+      "name": "layout A/report/390: no outer horizontal overflow",
+      "result": "PASS"
+    },
+    {
+      "name": "layout A/people/390: no outer horizontal overflow",
+      "result": "PASS"
+    },
+    {
+      "name": "layout B/today/1440: no outer horizontal overflow",
+      "result": "PASS"
+    },
+    {
+      "name": "layout B/tasks/1440: no outer horizontal overflow",
+      "result": "PASS"
+    },
+    {
+      "name": "layout B/lines/1440: no outer horizontal overflow",
+      "result": "PASS"
+    },
+    {
+      "name": "layout B/mr/1440: no outer horizontal overflow",
+      "result": "PASS"
+    },
+    {
+      "name": "layout B/report/1440: no outer horizontal overflow",
+      "result": "PASS"
+    },
+    {
+      "name": "layout B/people/1440: no outer horizontal overflow",
+      "result": "PASS"
+    },
+    {
+      "name": "layout B/today/1024: no outer horizontal overflow",
+      "result": "PASS"
+    },
+    {
+      "name": "layout B/tasks/1024: no outer horizontal overflow",
+      "result": "PASS"
+    },
+    {
+      "name": "layout B/lines/1024: no outer horizontal overflow",
+      "result": "PASS"
+    },
+    {
+      "name": "layout B/mr/1024: no outer horizontal overflow",
+      "result": "PASS"
+    },
+    {
+      "name": "layout B/report/1024: no outer horizontal overflow",
+      "result": "PASS"
+    },
+    {
+      "name": "layout B/people/1024: no outer horizontal overflow",
+      "result": "PASS"
+    },
+    {
+      "name": "layout B/today/390: no outer horizontal overflow",
+      "result": "PASS"
+    },
+    {
+      "name": "layout B/tasks/390: no outer horizontal overflow",
+      "result": "PASS"
+    },
+    {
+      "name": "layout B/lines/390: no outer horizontal overflow",
+      "result": "PASS"
+    },
+    {
+      "name": "layout B/mr/390: no outer horizontal overflow",
+      "result": "PASS"
+    },
+    {
+      "name": "layout B/report/390: no outer horizontal overflow",
+      "result": "PASS"
+    },
+    {
+      "name": "layout B/people/390: no outer horizontal overflow",
+      "result": "PASS"
+    },
+    {
+      "name": "Escape closes native dialog",
+      "result": "PASS"
+    },
+    {
+      "name": "double-click file entry can run without server",
+      "result": "PASS"
+    },
+    {
+      "name": "no browser script errors",
+      "result": "PASS"
+    },
+    {
+      "name": "no external network requests",
+      "result": "PASS"
+    }
+  ],
+  "page_errors": [],
+  "external_requests": [],
+  "passed": 83,
+  "failed": 0
+}

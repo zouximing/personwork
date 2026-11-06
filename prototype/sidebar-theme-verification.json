@@ -1,0 +1,97 @@
+{
+  "change": "Variant A dark sidebar palette",
+  "checks": [
+    {
+      "name": "1440: dark green sidebar",
+      "result": "PASS"
+    },
+    {
+      "name": "1440: active navigation remains highlighted",
+      "result": "PASS"
+    },
+    {
+      "name": "1440: no horizontal overflow",
+      "result": "PASS"
+    },
+    {
+      "name": "1440: navigation remains functional",
+      "result": "PASS"
+    },
+    {
+      "name": "1280: dark green sidebar",
+      "result": "PASS"
+    },
+    {
+      "name": "1280: active navigation remains highlighted",
+      "result": "PASS"
+    },
+    {
+      "name": "1280: no horizontal overflow",
+      "result": "PASS"
+    },
+    {
+      "name": "1280: navigation remains functional",
+      "result": "PASS"
+    },
+    {
+      "name": "1159: dark green sidebar",
+      "result": "PASS"
+    },
+    {
+      "name": "1159: active navigation remains highlighted",
+      "result": "PASS"
+    },
+    {
+      "name": "1159: no horizontal overflow",
+      "result": "PASS"
+    },
+    {
+      "name": "1159: navigation remains functional",
+      "result": "PASS"
+    },
+    {
+      "name": "390: dark green sidebar",
+      "result": "PASS"
+    },
+    {
+      "name": "390: active navigation remains highlighted",
+      "result": "PASS"
+    },
+    {
+      "name": "390: no horizontal overflow",
+      "result": "PASS"
+    },
+    {
+      "name": "390: navigation remains functional",
+      "result": "PASS"
+    },
+    {
+      "name": "navigation: text contrast at least 4.5",
+      "result": "PASS"
+    },
+    {
+      "name": "secondary: text contrast at least 4.5",
+      "result": "PASS"
+    },
+    {
+      "name": "active: text contrast at least 4.5",
+      "result": "PASS"
+    },
+    {
+      "name": "footer: text contrast at least 4.5",
+      "result": "PASS"
+    },
+    {
+      "name": "no browser script errors",
+      "result": "PASS"
+    }
+  ],
+  "passed": 21,
+  "contrast_ratios": {
+    "navigation": 8.56,
+    "secondary": 6.51,
+    "active": 8.61,
+    "footer": 6.27
+  },
+  "errors": []
+}
