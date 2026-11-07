@@ -1,0 +1,17 @@
+node_modules/
+dist/
+.worktrees/
+.env
+.env.*
+!.env.example
+*.db
+*.db-*
+*.sqlite*
+*.pwb
+*.key
+*.protected
+coverage/
+test-results/
+playwright-report/
+.runtime/
+*.log
